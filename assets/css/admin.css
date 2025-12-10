@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding: 30px;
+}
+.productForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.addproduct{
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+th,td{
+    border: 2px solid black;
+    padding: 12px;
+}
+.productTable{
+    padding: 30px;
+    width: 100%;
+}

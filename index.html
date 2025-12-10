@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>task-6</title>
+</head>
+
+<body>
+    <header>
+        <!------- start navbar ------->
+        <nav id="navbar">
+            <div class="logo">Guza</div>
+            <!-- start ul -->
+            <ul id="ul">
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Pags</a></li>
+                <li><a href="">Elements</a></li>
+            </ul>
+            <a href="./admin.html"><button class="Dashboard">Dashboard</button></a>
+        </nav>
+    </header>
+    <main>
+        <!----- start slider---->
+        <section class="Slider">
+            <div class="slides">
+                <!-- slide 1 -->
+                <div class="slide active">
+                    <img src="./assets/img/img1.jpg" alt="image 1" class="image">
+                </div>
+                <!-- slide 2 -->
+                <div class="slide">
+                    <img src="./assets/img/img2.jpg" alt="image 1" class="image">
+                </div>
+                <!-- slide 3 -->
+                <div class="slide">
+                    <img src="./assets/img/img3.jpg" alt="image 1" class="image">
+                </div>
+                <!-- slide 4 -->
+                <div class="slide">
+                    <img src="./assets/img/img4.jpg" alt="image 1" class="image">
+                </div>
+                <!-- slide 5 -->
+                <div class="slide">
+                    <img src="./assets/img/img5.jpg" alt="image 1" class="image">
+                </div>
+                <!-- icons to move -->
+                <button type="button" class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button type="button" class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                <!-- dots to move -->
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot "></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+        <!-- start search controls-->
+        <section class="categoriesAll">
+            <h4 class="filter">Filter by :</h4>
+            <!-- start search box -->
+            <div class="search-box">
+                <img src="./assets/img/search.png" alt="" class="search-img">
+                <input type="text" placeholder="search" class="search-input">
+            </div>
+            <!-- start box categories -->
+            <select name="categories" id="categories-box">
+                <option disabled selected>All categories</option>
+                <option>Women</option>
+                <option>Men</option>
+                <option>Kids</option>
+                <option>Accessories</option>
+                <option>shoes</option>
+            </select>
+            <!-- start box price -->
+            <select name="price" id="price-box">
+                <option disabled selected>sort by:price</option>
+                <option>0$-20$</option>
+                <option>20$-50$</option>
+                <option>50$-100$</option>
+                <option>100$-200$</option>
+                <option>200$ +</option>
+            </select>
+        </section>
+        <!-- start cards  -->
+        <section class="cards">
+            <div class="container"></div>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

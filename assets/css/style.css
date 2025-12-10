@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******start navbar *****/
+#navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.logo{
+    font-size: 30px;
+}
+#ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* button dashboard */
+.Dashboard{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+/***** start slider******/
+.slider{
+    position: relative;
+}
+/* style img */
+.image{
+    width: 100vw;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+/* style to icons move */
+.next,.prev{
+    position: absolute;
+    top: 50%;
+    background-color: rgb(196, 196, 196);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+
+}
+.next{
+    right: 0;
+}
+.prev{
+    left: 0;
+}
+.dots{
+    margin-top: 20px;
+    text-align: center;
+}
+.dots .dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+    margin: 5px;
+}
+.dot.active{
+    background-color: black;
+}
+.slide{
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+/* start search controls*/
+.categoriesAll{
+    display: flex;
+    gap: 22px;
+    padding: 30px ;
+}
+.filter{
+    padding-top: 10px;
+}
+/* start search-box */
+.search-box{
+    position: relative;
+}
+.search-input{
+    border: none;
+}
+.search-img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 9px;
+    top: 25%;
+}
+.search-input{
+    padding: 9px;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+/* start box categories and price */
+#categories-box, #price-box{
+    padding: 9px;
+    border: none;
+}
+/* start cards */
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px;
+}
+.card{
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+}
+.img-card{
+    width: 200px;
+    padding: 20px;
+}
+p{
+    padding: 5px 20px;
+}
